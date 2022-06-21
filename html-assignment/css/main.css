@@ -8,13 +8,12 @@ header, footer{
 }
 
 .site-title{
-    color:aquamarine;
+    color:rgb(34, 8, 113);
 }
 
 #my-image{
     box-shadow: 0vh; 
-    blur: 2px;
-    spead: 1px;
     color: black;   
+    
 }
 
