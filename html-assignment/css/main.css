@@ -19,6 +19,22 @@ ul{
     list-style-type: square;
 }
 
-p:nth-child(2){
-    background-color: rgb(249, 249, 198);
+dl > ul:nth-child(1){
+    background: lightgreen;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+a:link, a:visited{
+    color:aqua;
+    text-decoration: none;
+    background: rgb(248, 171, 171);
+    border: 2px solid;
+    display: inline-block;
+}
+
+a:hover, a:active{
+    color: orange;  
 }
