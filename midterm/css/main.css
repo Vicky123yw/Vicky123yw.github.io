@@ -3,3 +3,6 @@ body{
     background-color: rgb(195, 229, 255);
 }
 
+header{
+    margin-block: 16px;
+}
