@@ -1,4 +1,4 @@
-/* body  */
+/* background color is green, add image on the top, margin */
 body{
     background-color: rgb(222, 253, 255);
     background-image: url("../images/wide.jpg");
@@ -10,11 +10,11 @@ body{
 
 /* add background image, title on top of image, in the middle */
 header{
-    font-size: 1.5rem;
-    color:rgb(255, 255, 255);
     padding: 20px;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
     text-align: center;
     text-transform: capitalize;
-   
+
 }
 
