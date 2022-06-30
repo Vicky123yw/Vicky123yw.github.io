@@ -1,8 +1,20 @@
 /* body  */
 body{
-    background-color: rgb(195, 229, 255);
+    background-color: rgb(222, 253, 255);
+    background-image: url("../images/wide.jpg");
+    background-position: 50% 55%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
 }
 
+/* add background image, title on top of image, in the middle */
 header{
+    font-size: 1.5rem;
+    color:rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
    
 }
+
