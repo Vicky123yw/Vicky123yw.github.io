@@ -17,7 +17,7 @@ body{
     line-height: 0.5;
 }
 
-/* navigation inline under picture, using "|" to separate */
+/* navigation inline under picture, using "|" to separate, a:link: blue, a:visited: yellow */
 /*.wrapper{
     position: fixed;
     padding-top: 0;
