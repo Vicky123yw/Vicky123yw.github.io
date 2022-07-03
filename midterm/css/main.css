@@ -4,3 +4,8 @@ body{
 }
 /* change the header's position, upper the image, uppercase */
 
+/* navbar */
+.navbar{
+    display: flex;
+    align-items: baseline;
+}
