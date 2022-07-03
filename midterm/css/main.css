@@ -1,5 +1,6 @@
 /* background color is green, add image on the top, margin changes */
 body{
     background-color: rgb(222, 253, 255);
+    font-family: Arial;
 }
 /* change the header's position, upper the image, uppercase */
