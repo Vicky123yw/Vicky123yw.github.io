@@ -1,6 +1,29 @@
-/* background color is green, add image on the top, margin changes */
+/* background color is blue, add a box, new mergin */
+
 body{
-    background-color: rgb(222, 253, 255);
+    background-color: rgb(170, 218, 222);
     font-family: Arial;
 }
-/* change the header's position, upper the image, uppercase */
+/* all the content in a box; background color is lighter than the body */
+.box{
+    width: 1220px;
+    margin: auto;
+    background-color: rgb(215, 245, 246);
+}
+/* add a picture on the top, covered, the white title in front of it */ 
+header{
+    width: 1220px;
+    height: 300px;
+    background-image: url(../images/wide.jpg);
+    background-position: 55% 55%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 2px; 
+}
+
