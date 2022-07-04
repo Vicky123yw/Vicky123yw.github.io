@@ -72,5 +72,41 @@ h2{
     padding: 10px;
 }
 
+fieldset{
+    margin: 10px;
+}
+
+.name{
+    margin: 30px 10px 10px 8px;
+}
+
+.email, .message{
+    margin: 20px 10px 10px 8px;
+}
+
+/* .message{
+    margin: 20px 10px 10px 8px;
+} */
+
+#fullname, #emailaddress{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1150px;
+}
+
+#message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1150px;
+    height: 80px;
+    margin-top: 5px;
+}
+
+
 
 /* border-right: 1.5px solid black; */
