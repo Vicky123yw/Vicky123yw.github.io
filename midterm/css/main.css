@@ -56,7 +56,7 @@ h1{
     text-transform: uppercase;
 }
 
-#y{
+#story{
     margin: 20px 0px 0px 0px;
 }
 
@@ -64,12 +64,12 @@ h2{
     margin-left: 10px;
 }
 
-#y img{
+#story img{
     float: left;
     padding: 10px;
 }
 
-#y p{
+#story p{
     margin-top: 10px;
     padding: 10px;
 }
@@ -123,6 +123,7 @@ button{
     color: black;
     margin-left: 10px;
     margin-top: 10px;
+    margin-bottom: 7px;
 }
    
 footer{
