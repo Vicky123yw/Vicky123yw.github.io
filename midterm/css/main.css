@@ -11,6 +11,16 @@ body{
     background-color: rgb(215, 245, 246);
 }
 /* add a picture on the top, covered, the white title in front of it */ 
+h1{
+    color: white;
+    font-size: 45px;
+    letter-spacing: 2px;
+    position: absolute;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 470px;
+}
+
 header{
     width: 1220px;
     height: 300px;
@@ -20,10 +30,6 @@ header{
     background-size: cover;
 }
 
-h1{
-    color: white;
-    text-align: center;
-    font-size: 45px;
-    letter-spacing: 2px; 
-}
+#x{
 
+}
