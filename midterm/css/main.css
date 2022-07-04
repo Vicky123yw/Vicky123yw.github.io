@@ -58,6 +58,7 @@ h1{
 
 #story{
     margin: 20px 0px 0px 0px;
+    
 }
 
 h2{
@@ -72,6 +73,7 @@ h2{
 #story p{
     margin-top: 10px;
     padding: 10px;
+    font-size: 18px;
 }
 
 fieldset{
