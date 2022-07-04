@@ -53,22 +53,20 @@ h1{
     text-transform: uppercase;
 }
 
-article h2{
+#y article h2{
     position: absolute;
-    margin: 0px 10px 0 10px;
+    margin: 0px 10px 20px 10px;
 }
 
-.content{
-    width: 500px;
+.story{
+    width: 1220px;
     margin: 0 auto;
+  
 }
 
-img{
-    margin: 50px 10px 30px 10px;
+.story image{
     float: left;
 }
-
-
 
 
 /* border-right: 1.5px solid black; */
