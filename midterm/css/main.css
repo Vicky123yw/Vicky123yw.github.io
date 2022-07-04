@@ -50,6 +50,8 @@ h1{
 /* a link after and a link visit */
 .navbar ul li a{
     color: black;
+    font-size: 20px;
+    font-weight: normal;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -103,10 +105,28 @@ fieldset{
     justify-content: center;
     align-items: flex-start;
     width: 1150px;
-    height: 80px;
+    height: 90px;
     margin-top: 5px;
 }
 
+/* change margin left */
+.choice{
+    margin-left: 10px; 
+}
 
 
-/* border-right: 1.5px solid black; */
+button{
+    width: 60px;
+    height: 35px;
+    border: 1px solid black;
+    background: rgb(215, 245, 246);
+    color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+   
+footer{
+   font-size: 14px;
+   padding: 30px 10px 40px 10px;
+}
+
