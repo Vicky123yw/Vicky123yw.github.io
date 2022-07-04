@@ -1,1 +1,3 @@
-header background image of starfish: yang0347.github.io/html-assignment
+header background image of starfish: yang0347.github.io/midterm-assets/wide.jpg
+main image of starfish in the article: yang0347.github.io/midterm-assets/starfish.jpg
+the story text in the main article : yang0347.github.io/midterm-assets/content.text
