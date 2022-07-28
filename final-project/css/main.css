@@ -10,7 +10,7 @@ body{
 
 header{
     background-color: rgb(31, 27, 27);
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
 }
 
@@ -20,4 +20,6 @@ header{
 }
 
 .logo{
+    background-color: rgb(187, 130, 38);
+    padding: 1rem;
 }
