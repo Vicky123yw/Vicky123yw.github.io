@@ -10,10 +10,21 @@ body{
 
 header{
     background-color: rgb(31, 27, 27);
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .wrapper{
     margin: 0 auto;
     width: 90%;
+}
+
+.logo{
+    background-color: rgb(158, 113, 57);
+    text-align: left;
+    height: 170px;
+}
+
+/* using flex, because nav is a father that has a lot of children, and using x,y axis is easier to set up, eg. culumn*/
+.nav{
+   flex-direction: column;
 }
