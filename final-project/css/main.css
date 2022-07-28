@@ -25,8 +25,9 @@ header{
 }
 
 /* using flex, because nav is a father that has a lot of children, and using x,y axis is easier to set up, eg. culumn*/
-.header nav{
-   display: none;
+nav{
+   display: flex;
    flex-direction: column;
    text-align: center;
+   color: orange;
 }
