@@ -35,19 +35,21 @@
         </header>
     </div>
 
-    <main>
+    <!-- there are seven single part in the main article totally-->
+    <main> 
+        <!-- 1. welcome : the background image is meaningless, so it will add in css -->
         <div class="wrapper">
-            <div>
-                <h1>Welcome to Three Star Media</h1>
-                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, enim nihil quae autem ratione iusto explicabo vitae doloribus dolorem numquam tempora similique suscipit voluptatum! Eius sequi laboriosam ipsum possimus debitis?</P>
-            </div>
+            
+            <h1>Welcome to Three Star Media</h1>
+            <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, enim nihil quae autem ratione iusto explicabo vitae doloribus dolorem numquam tempora similique suscipit voluptatum! Eius sequi laboriosam ipsum possimus debitis?</P>
 
-            <nav>
+            <div class="block-1">
                 <a href="#"> Connect with us</a>
                 <i class="fa-solid fa-play"></i>
-            </nav>
+            </div>
         </div>
 
+        <!-- 2. about: sigle part -->
         <div class="wrapper">
             <div>
                 <h2>About Us</h2>
@@ -56,86 +58,89 @@
                 <img src="images/about-us.jpg" alt="aboutus">
             </div>
         </div>
-
+        <!-- 3. services: it has 5 seprate parts in the same subject, so use the "section" to divide -->
         <div class="wrapper">
             <h2>Our Services</h2>
-            <div>
+            <section>
                 <h3>Digital Transformation</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto expedita culpa necessitatibus assumenda repudiandae voluptates iure. Ullam, incidunt molestias. Suscipit cumque fugit vero repellat provident doloremque dolores ducimus excepturi aspernatur?</p>
                 <img src="images/digital.jpg" alt="digital">
-                <nav>
+                <nav class="block-2">
                     <a href="#">Digital Plans</a>
                     <i class="fa-solid fa-play"></i>
                 </nav>
-            </div>
+            </section>
 
-            <div>
+            <section>
                 <h3>Marketing</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe iste aut iure sunt at voluptas facilis, nemo odio corrupti, temporibus porro eos! Sed libero culpa temporibus, earum similique doloremque quo?</p>
                 <img src="images/marketing.jpg" alt="marketing">
-                <nav>
+                <nav class="block-3">
                     <a href="#">Marketing Plans</a>
                     <i class="fa-solid fa-play"></i>
                 </nav>
-            </div>
+            </section>
 
-            <div>
+            <section>
                 <h3>Video Production</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, quis et sequi illo doloribus in ad placeat laboriosam accusamus natus! Itaque dolor temporibus aperiam et? Soluta, iure. Vero, labore tempore?</p>
                 <img src="images/video.jpg" alt="video">
-                <nav>
+                <nav class="block-4">
                     <a href="#">Video Plans</a>
                     <i class="fa-solid fa-play"></i>
                 </nav>
-            </div>
+            </section>
 
-            <div>
+            <section>
                 <h3>Web Development</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, quis et sequi illo doloribus in ad placeat laboriosam accusamus natus! Itaque dolor temporibus aperiam et? Soluta, iure. Vero, labore tempore?</p>
                 <img src="images/web.jpg" alt="web">
-                <nav>
+                <nav class="block-5">
                     <a href="#">Web Plans</a>
                     <i class="fa-solid fa-play"></i>
                 </nav>
-            </div>
+            </section>
 
-            <div>
+            <section>
                 <h3>Print</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, quis et sequi illo doloribus in ad placeat laboriosam accusamus natus! Itaque dolor temporibus aperiam et? Soluta, iure. Vero, labore tempore?</p>
                 <img src="images/print.jpg" alt="printing">
-                <nav>
+                <nav class="block-6">
                     <a href="#">Print Plans</a>
                     <i class="fa-solid fa-play"></i>
                 </nav>
-            </div>
+            </section>
         </div>
-
+        
+        <!-- 4. vision: sigle part, the background image has meaningless, so add in css -->
         <div class="wrapper">
             <h3>Our Vision</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, quis et sequi illo doloribus in ad placeat laboriosam accusamus natus! Itaque dolor temporibus aperiam et? Soluta, iure. Vero, labore tempore?</p>
-            <nav>
+            <nav class="block-7">
                 <a href="#">Learn More</a>
                 <i class="fa-solid fa-play"></i>
             </nav>
         </div>
 
+        <!-- 5. team: 2 main parts in the same subject, but every main part is divied two small part: picture and text-->
         <div class="wrapper">
             <h2>Our Team</h2>
             <div>
                 <h3>John Doe</h3>
                 <h5>CEO and Co-owner</h5>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim atque animi vel adipisci! Necessitatibus, nisi explicabo, impedit illo consequuntur eligendi delectus cupiditate expedita accusantium nam ut reprehenderit enim, nesciunt totam.</p>
-                <img src="images/john.jpg" alt="the photo of john">
             </div>
+            <div><img src="images/john.jpg" alt="the photo of john"></div>
 
             <div>
                 <h3>Bob Rite</h3>
                 <h5>CFO and Co-owner</h5>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim atque animi vel adipisci! Necessitatibus, nisi explicabo, impedit illo consequuntur eligendi delectus cupiditate expedita accusantium nam ut reprehenderit enim, nesciunt totam.</p>
-                <img src="images/bob.jpg" alt="the photo of bob">
             </div>
+            <div><img src="images/bob.jpg" alt="the photo of bob"></div>
         </div>
 
+        <!-- 6. contact: add form, map and table-->
         <div class="wrapper">
             <h2>Contact Us</h2>
             <div>
@@ -154,11 +159,12 @@
                 </form>
             </div>
 
+            <!-- the map need to reset the width, heigth amd margin -->
             <div>
                 <h3>Location</h3>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944738572691!2d-75.75713084858981!3d45.34992777899715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1szh-CN!2sca!4v1659399329716!5m2!1szh-CN!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-
+              <!-- table has problem: can not show the table border, and how to reset in css) -->
             <div>
                 <h3>Hours of operation</h3>
                 <table>
@@ -179,8 +185,7 @@
                             <td>closed</td>
                         </tr>
                     </tbody>
-                </table>
-               
+                </table>   
             </div>
 
         </div>
