@@ -52,5 +52,7 @@ nav ul li a:hover, nav ul li a:active{
 }
 
 #search{
-    
+    width: 95%;
+    height: 50px;
+    font-size: 1.2rem;
 }
