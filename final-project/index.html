@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MTM6130 Final - Yuwei Yang</title>
+    <link href="css/reset.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c851c03d57.js" crossorigin="anonymous"></script>
 </head>
@@ -17,15 +18,15 @@
             
             <nav>
                <ul>
-                 <li><a href="#">Home</a></li>
-                 <li><a href="#">About Us</a></li>
-                 <li><a href="#">Services</a></li>
-                 <li><a href="#">Team</a></li>
-                 <li><a href="#">Contact</a></li>
+                 <li><a href="#top">Home</a></li>
+                 <li><a href="#aboutus">About Us</a></li>
+                 <li><a href="#services">Services</a></li>
+                 <li><a href="#team">Team</a></li>
+                 <li><a href="#contact">Contact</a></li>
                </ul>
             </nav>
 
-            <div>
+            <div class="searchform">
                 <form action="thanks.html" method="post">
                     <label for="search"></label>
                     <input id="search" type="text" name="search" placeholder="Search">
@@ -51,7 +52,7 @@
 
         <!-- 2. about: sigle part -->
         <div class="wrapper">
-            <div>
+            <div id="aboutus">
                 <h2>About Us</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab veritatis magnam rerum reiciendis perferendis. Tempore sapiente vero iste accusamus voluptatibus reprehenderit quidem iusto provident commodi repellat! Pariatur fugiat numquam sunt.</p>
                 <p>Magni aperiam id doloremque porro qui explicabo, adipisci reiciendis. Quisquam odit ullam consectetur a repellat tempora, sit dolorum pariatur asperiores totam mollitia eaque impedit quos facere, maxime perspiciatis aperiam eius.</p>
@@ -60,56 +61,58 @@
         </div>
         <!-- 3. services: it has 5 seprate parts in the same subject, so use the "section" to divide -->
         <div class="wrapper">
-            <h2>Our Services</h2>
-            <section>
-                <h3>Digital Transformation</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto expedita culpa necessitatibus assumenda repudiandae voluptates iure. Ullam, incidunt molestias. Suscipit cumque fugit vero repellat provident doloremque dolores ducimus excepturi aspernatur?</p>
-                <img src="images/digital.jpg" alt="digital">
-                <nav class="block-2">
-                    <a href="#">Digital Plans</a>
-                    <i class="fa-solid fa-play"></i>
-                </nav>
-            </section>
+            <div id="services">
+                <h2>Our Services</h2>
+                <section class="digital">
+                    <h3>Digital Transformation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto expedita culpa necessitatibus assumenda repudiandae voluptates iure. Ullam, incidunt molestias. Suscipit cumque fugit vero repellat provident doloremque dolores ducimus excepturi aspernatur?</p>
+                    <img src="images/digital.jpg" alt="digital">
+                    <nav class="block-2">
+                        <a href="#">Digital Plans</a>
+                        <i class="fa-solid fa-play"></i>
+                    </nav>
+                </section>
 
-            <section>
-                <h3>Marketing</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe iste aut iure sunt at voluptas facilis, nemo odio corrupti, temporibus porro eos! Sed libero culpa temporibus, earum similique doloremque quo?</p>
-                <img src="images/marketing.jpg" alt="marketing">
-                <nav class="block-3">
-                    <a href="#">Marketing Plans</a>
-                    <i class="fa-solid fa-play"></i>
-                </nav>
-            </section>
+                <section class="marketing">
+                    <h3>Marketing</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe iste aut iure sunt at voluptas facilis, nemo odio corrupti, temporibus porro eos! Sed libero culpa temporibus, earum similique doloremque quo?</p>
+                    <img src="images/marketing.jpg" alt="marketing">
+                    <nav class="block-3">
+                        <a href="#">Marketing Plans</a>
+                        <i class="fa-solid fa-play"></i>
+                    </nav>
+                </section>
 
-            <section>
-                <h3>Video Production</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, quis et sequi illo doloribus in ad placeat laboriosam accusamus natus! Itaque dolor temporibus aperiam et? Soluta, iure. Vero, labore tempore?</p>
-                <img src="images/video.jpg" alt="video">
-                <nav class="block-4">
-                    <a href="#">Video Plans</a>
-                    <i class="fa-solid fa-play"></i>
-                </nav>
-            </section>
+                <section class="video">
+                    <h3>Video Production</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, quis et sequi illo doloribus in ad placeat laboriosam accusamus natus! Itaque dolor temporibus aperiam et? Soluta, iure. Vero, labore tempore?</p>
+                    <img src="images/video.jpg" alt="video">
+                    <nav class="block-4">
+                        <a href="#">Video Plans</a>
+                        <i class="fa-solid fa-play"></i>
+                    </nav>
+                </section>
 
-            <section>
-                <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, quis et sequi illo doloribus in ad placeat laboriosam accusamus natus! Itaque dolor temporibus aperiam et? Soluta, iure. Vero, labore tempore?</p>
-                <img src="images/web.jpg" alt="web">
-                <nav class="block-5">
-                    <a href="#">Web Plans</a>
-                    <i class="fa-solid fa-play"></i>
-                </nav>
-            </section>
+                <section class="web">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, quis et sequi illo doloribus in ad placeat laboriosam accusamus natus! Itaque dolor temporibus aperiam et? Soluta, iure. Vero, labore tempore?</p>
+                    <img src="images/web.jpg" alt="web">
+                    <nav class="block-5">
+                        <a href="#">Web Plans</a>
+                        <i class="fa-solid fa-play"></i>
+                    </nav>
+                </section>
 
-            <section>
-                <h3>Print</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, quis et sequi illo doloribus in ad placeat laboriosam accusamus natus! Itaque dolor temporibus aperiam et? Soluta, iure. Vero, labore tempore?</p>
-                <img src="images/print.jpg" alt="printing">
-                <nav class="block-6">
-                    <a href="#">Print Plans</a>
-                    <i class="fa-solid fa-play"></i>
-                </nav>
-            </section>
+                <section class="print">
+                    <h3>Print</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, quis et sequi illo doloribus in ad placeat laboriosam accusamus natus! Itaque dolor temporibus aperiam et? Soluta, iure. Vero, labore tempore?</p>
+                    <img src="images/print.jpg" alt="printing">
+                    <nav class="block-6">
+                        <a href="#">Print Plans</a>
+                        <i class="fa-solid fa-play"></i>
+                    </nav>
+                </section>
+            </div>
         </div>
         
         <!-- 4. vision: sigle part, the background image has meaningless, so add in css -->
