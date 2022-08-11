@@ -140,4 +140,8 @@ h1{
 }
 
 
+/* part 3 Our services -- using flex to make image,h3 and p to be a vertical column */
 
+#services{
+    padding: 25px;
+}
