@@ -92,7 +92,7 @@ h1{
 }
 
 .box p{
-   padding: 20px 16px;
+   padding: 35px 10px 15px 16px;
 
 }
 
@@ -124,12 +124,20 @@ h1{
 
 #aboutus{
     background-color: #ffe6ac;
-    padding: 10px;
+    padding: 15px;
     display:flex;
     flex-direction: column;
 }
 
+#aboutus h2{
+    font-weight: bolder;
+    font-size: 54px;
+    padding: 25px 0;
+}
 
+#aboutus p{
+    padding: 10px 0;
+}
 
 
 
