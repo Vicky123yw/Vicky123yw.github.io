@@ -78,7 +78,7 @@ nav ul li a:hover, nav ul li a:active{
 
 .box{
     background-color: rgba(0,0,0,0.5);
-    height: 380px;
+    height: 430px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,6 +87,7 @@ nav ul li a:hover, nav ul li a:active{
 h1{
     font-size: 68px;
     font-weight: bolder;
+    margin-top: 20px;
     padding: 0 16px;
 }
 
@@ -120,6 +121,13 @@ h1{
 }
 
 /* part 2 about us -- using flex to make image,h2 and p to be a vertical column    */
+
+#aboutus{
+    background-color: #ffe6ac;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+}
 
 
 
