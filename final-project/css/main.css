@@ -131,7 +131,7 @@ h1{
 
 #aboutus h2{
     font-weight: bolder;
-    font-size: 54px;
+    font-size: 52px;
     padding: 25px 0;
 }
 
@@ -144,4 +144,45 @@ h1{
 
 #services{
     padding: 25px;
+    display: flex;
+    flex-direction: column;
 }
+
+#services h2{
+    font-size: 52px;
+    font-weight: bolder;
+    padding: 25px 0;
+}
+
+#services h3{
+    padding: 25px 15px;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+#services p{
+    padding: 10px 15px;
+    line-height: 1.7rem;   
+}
+
+#services img{
+    width: 100%;
+    height: 60%;
+}
+
+.block-2{
+    margin: 15px 0 10px 15px;
+    width: 200px;
+    height: 75px;
+    background-color: #c78c06;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.digital{
+    background-color:#ffe6ac;
+}
+
+ 
+
