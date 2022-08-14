@@ -144,8 +144,10 @@ h1{
 
 #services{
     padding: 25px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    
 }
 
 #services h2{
@@ -171,7 +173,7 @@ h1{
 }
 
 .block-2,.block-3, .block-4, .block-5, .block-6{
-    margin: 15px 0px 10px 15px;
+    margin: 15px 0px 0px 15px;
     width: 185px;
     height: 75px;
     background-color: #222;  
