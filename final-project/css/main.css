@@ -223,6 +223,7 @@ section p{
  .vision p{
     padding-top: 30px;
     padding-left:20px;
+    padding-right: 20px;
     line-height: 1.7rem;
  }
 
@@ -269,9 +270,23 @@ section p{
  }
 
  h5{
-    padding-top: 15px;
+    font-weight: bolder;
+    padding-top: 10px;
     padding-left: 15px;
+    padding-bottom: 3px;
+    border-bottom:#c78c06 solid 2.5px;
  }
+
+ .team p{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right:15px;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+ }
+
+ 
 
  
 
