@@ -416,14 +416,44 @@ footer p:nth-child(2){
     /* using the flex to edit the logo, nav and search part in a row */
     header{
         display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 16px;
     }
 
     .logo{
-       margin-left: 65px;
-       margin-top: 18px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 30px;
     }
 
-    .
+    nav ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .searchform form{
+        margin-right: 30px;
+        width: 250px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .searchform button{
+        align-items: baseline;
+        bottom: -1px;
+    }
+
+    
+
+
+ 
+
+
+
+
 
 
 }
