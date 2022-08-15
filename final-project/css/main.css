@@ -54,9 +54,29 @@ nav ul li a:hover, nav ul li a:active{
 }
 
 .searchform{
-    display: flex;
-    flex-direction: row;
+    display: inline;
 }
+
+.searchform input{
+    margin-left: 5px;
+    width: 90%;
+    height: 43px;
+    font-size: 1.2rem;
+    align-items: baseline;
+}
+
+.searchform button{
+    width: 50px;
+    height: 41px;
+    margin-right: 5px;
+    position: relative;
+    bottom: 2px;
+    border:#c78c06 solid 2px;
+    color:#c78c06;
+    background-color:#222; 
+    font-size: 16px; 
+}
+
 /*#search{
     width: 90%;
     height: 50px;
@@ -307,7 +327,7 @@ section p{
     font-size: 36px;
  }
 
-form{
+.contact form{
     padding: 8px;
     display: flex;
     flex-direction: column;
