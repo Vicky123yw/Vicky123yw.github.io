@@ -172,10 +172,11 @@ h1{
 
 #services{
     margin: 20px;
+}
+
+.serve{
     display: grid;
-    grid-template-columns: 100%;
-    grid-gap: 18px;
-    
+    grid-gap: 10px;
 }
 
 #services img{
@@ -499,6 +500,10 @@ footer p:nth-child(2){
         font-size: small;
     }
 
+    #services h2{
+        padding-left: 30px;
+    }
+
     .serve{
         margin: 10px;
         padding: 20px;
@@ -526,6 +531,11 @@ footer p:nth-child(2){
 
    .block-4, .block-5, .block-6{
         width: 93%;
+   }
+
+   .team-content{
+        display: grid;
+
    }
 
    
