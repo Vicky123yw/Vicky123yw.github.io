@@ -164,7 +164,7 @@ h1{
 }
 
 
-/* part 3 Our services -- using flex to make image,h3 and p to be a vertical column */
+/* part 3 Our services -- because there is a small gap between every elements---- using grid is easy to set */
 
 #services{
     margin: 20px;
@@ -186,6 +186,7 @@ h2{
     padding-bottom: 10px;
 }
 
+/* flex is a good way to set the baby content in the box --- veritical axis */
 section{
     background-color:#ffe6ac;
     display: flex;
@@ -408,6 +409,26 @@ footer p:nth-child(1){
 footer p:nth-child(2){
     padding: 20px;
 }
+
+/* setting the screen on desktop */
+@media screen and (min-width: 760px){
+
+    /* using the flex to edit the logo, nav and search part in a row */
+    header{
+        display: flex;
+    }
+
+    .logo{
+       margin-left: 65px;
+       margin-top: 18px;
+    }
+
+    .
+
+
+}
+
+
 
 
 
