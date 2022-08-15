@@ -204,6 +204,10 @@ section h3, .team h3{
     font-size: 36px;
 }
 
+section img{
+    width: 100%;
+}
+
 section p{
     padding: 10px 15px;
     line-height: 1.7rem;   
@@ -495,7 +499,7 @@ footer p:nth-child(2){
         font-size: small;
     }
 
-    #services{
+    .serve{
         margin: 10px;
         padding: 20px;
         font-size: small;
@@ -504,6 +508,7 @@ footer p:nth-child(2){
         grid-template-areas:
         "b1 b1 b1 b2 b2 b2"
         "b3 b3 b4 b4 b5 b5";
+        grid-gap: 10px;
     }
     .digital{grid-area: b1;}
     .marketing{grid-area: b2;}
@@ -522,6 +527,8 @@ footer p:nth-child(2){
    .block-4, .block-5, .block-6{
         width: 93%;
    }
+
+   
 
 
         
