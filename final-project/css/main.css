@@ -196,5 +196,20 @@ section{
     background-color:#ffe6ac;
 }
 
+ .vision{
+    background-image: url(../images/vision.jpg);
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    justify-content: center;
+    height: 400px;
+    color: white;
+ }
+
+ .vision{
+    
+    
+    
+ }
  
 
