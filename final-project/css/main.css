@@ -53,16 +53,20 @@ nav ul li a:hover, nav ul li a:active{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-#search{
+.searchform{
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+/*#search{
     width: 90%;
     height: 50px;
     font-size: 1.2rem;
 }
-#button { 
+#but{ 
     color:#c78c06;
     background-color: black;
     border: 3px solid #c78c06;
-}
+}*/
 
 
 /* seting a background, and a bar box. */
