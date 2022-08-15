@@ -143,28 +143,11 @@ h1{
 /* part 3 Our services -- using flex to make image,h3 and p to be a vertical column */
 
 #services{
-    padding: 25px;
+    margin: 20px;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 100%;
     grid-gap: 10px;
     
-}
-
-#services h2{
-    font-size: 52px;
-    font-weight: bolder;
-    padding: 25px 0;
-}
-
-#services h3{
-    padding: 25px 15px;
-    font-weight: bolder;
-    font-size: 36px;
-}
-
-#services p{
-    padding: 10px 15px;
-    line-height: 1.7rem;   
 }
 
 #services img{
@@ -172,8 +155,36 @@ h1{
     height: 60%;
 }
 
+#services h2{
+    font-size: 52px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+section{
+    background-color:#ffe6ac;
+    display: flex;
+    flex-direction: column;
+}
+
+section h3{
+    padding-left: 15px;
+    padding-top: 25px;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+section p{
+    padding: 10px 15px;
+    line-height: 1.7rem;   
+}
+
 .block-2,.block-3, .block-4, .block-5, .block-6{
-    margin: 15px 0px 0px 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 15px;
     width: 185px;
     height: 75px;
     background-color: #222;  
@@ -188,12 +199,8 @@ h1{
     font-size: 1.2rem;
 }
 #services i{
-    padding: 0px 10px;
+    padding-left: 10px;
     color: white;
-}
-
-section{
-    background-color:#ffe6ac;
 }
 
  .vision{
@@ -202,14 +209,44 @@ section{
     background-repeat: no-repeat;
     background-size: cover; 
     justify-content: center;
-    height: 400px;
+    height: 325px;
     color: white;
  }
 
- .vision{
-    
-    
-    
+ .vision h3{
+    padding: 40px 20px;
+    font-size: 36px;
+    font-weight: bolder;
  }
+
+ .vision p{
+    padding: 0px 20px;
+    line-height: 1.7rem;
+ }
+
+ .block-7{
+    text-decoration: none;
+    background-color:#262763;
+    width: 185px;
+    height: 75px;
+    margin: 15px;
+    border:#c78c06 1.5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 1.2rem;
+ }
+
+ .block-7 a{
+    text-decoration: none;
+    color:white;
+ }
+
+ .block-7 i{
+    padding-left: 10px;
+ }
+
+ 
+ 
  
 
