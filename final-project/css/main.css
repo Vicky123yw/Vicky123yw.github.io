@@ -596,6 +596,12 @@ footer p:nth-child(2){
         flex-basis: 100%;
         order: 2;    
     }
+
+    .lastbox h2{
+        margin-left: 45px;
+    }
+
+   
     
 
 
