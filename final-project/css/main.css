@@ -575,10 +575,10 @@ footer p:nth-child(2){
     .items-2{ grid-area: r4}
         
 
-    .last{
+    /*.last{
         display: flex;
         flex-wrap:wrap;
-        margin: 20px;
+        margin: 0 45px;
         font-size: smaller;
     }
 
@@ -599,7 +599,22 @@ footer p:nth-child(2){
 
     .lastbox h2{
         margin-left: 45px;
+    } */
+
+    .last{
+        font-size: small;
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "l1 l3"
+        "l2 l2";
     }
+
+    .contant{ grid-area: l1;}
+    .timetable{ grid-area: l2;}
+    .map{ grid-area: l3;}
+
 
    
     
