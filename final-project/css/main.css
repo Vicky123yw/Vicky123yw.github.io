@@ -557,7 +557,6 @@ footer p:nth-child(2){
         display:grid;
         grid-gap: 10px;
         grid-template-columns: repeat(2, 4fr);
-        grid-template-rows: repeat(2, 4fr);
         grid-template-areas: 
         "l1 l3"
         "l2 l2";
@@ -580,9 +579,7 @@ footer p:nth-child(2){
     input{
         border: black solid 1px;
     }
-    #message{ 
-        height: 100px;
-    }
+   
     .timetable{
         margin: 15px;
         padding: 0;
