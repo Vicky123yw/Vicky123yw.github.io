@@ -543,11 +543,12 @@ footer p:nth-child(2){
     .team img:nth-child(2){ grid-area: r3;}
     .items-2{ grid-area: r4}
 
+
     .last{
         font-size: small;
         display:grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 4fr);
+        grid-template-rows: repeat(2, 4fr);
         grid-template-areas: 
         "l1 l3"
         "l2 l2";
@@ -556,8 +557,12 @@ footer p:nth-child(2){
     .contant{ grid-area: l1;}
     .timetable{ grid-area: l2;}
     .map{ grid-area: l3;}
-    
+
+
+
+
     }
+
 
     
 
