@@ -556,8 +556,7 @@ footer p:nth-child(2){
     .contant{ grid-area: l1;}
     .timetable{ grid-area: l2;}
     .map{ grid-area: l3;}
-
-
+    
     }
 
     
