@@ -290,6 +290,9 @@ section p{
     background-color:#ffe6ac;
  }
 
+ .items-1{
+    margin-bottom: 10px;
+ }
 
  h5{
     font-weight: bolder;
@@ -527,6 +530,10 @@ footer p:nth-child(2){
         margin-top: 10px;
         margin-left: 20px;
    }
+
+   .items-1{
+        margin-bottom: 0;
+   }
    .team-content{
         font-size: small;
         padding-left: 10px;
@@ -547,6 +554,7 @@ footer p:nth-child(2){
     .last{
         font-size: small;
         display:grid;
+        grid-gap: 10px;
         grid-template-columns: repeat(2, 4fr);
         grid-template-rows: repeat(2, 4fr);
         grid-template-areas: 
@@ -558,7 +566,26 @@ footer p:nth-child(2){
     .timetable{ grid-area: l2;}
     .map{ grid-area: l3;}
 
+    .lastbox{
+        margin-bottom: 0;
+    }
+    .map{
+         margin: 20px;
+    }
+    iframe{
+        height: 100%;
+    }
 
+    input{
+        border: black solid 1px;
+    }
+    #message{ 
+        height: 100px;
+    }
+    .timetable{
+        margin: 15px;
+        padding: 0;
+    }
 
 
     }
