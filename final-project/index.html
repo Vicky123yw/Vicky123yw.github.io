@@ -142,7 +142,7 @@
                 <div class="team-content">
                     <div class="john">
                         <div><img src="images/john.jpg" alt="the photo of john"></div>
-                        <div>
+                        <div class="items-1">
                             <h3>John Doe</h3>
                             <h5>CEO and Co-owner</h5>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim atque animi vel adipisci! Necessitatibus, nisi explicabo, impedit illo consequuntur eligendi delectus cupiditate expedita accusantium nam ut reprehenderit enim, nesciunt totam.</p>
@@ -151,7 +151,7 @@
 
                     <div class="bob">
                         <div><img src="images/bob.jpg" alt="the photo of bob"></div>
-                        <div>
+                        <div class="items-2">
                             <h3>Bob Rite</h3>
                             <h5>CFO and Co-owner</h5>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim atque animi vel adipisci! Necessitatibus, nisi explicabo, impedit illo consequuntur eligendi delectus cupiditate expedita accusantium nam ut reprehenderit enim, nesciunt totam.</p>
@@ -164,52 +164,54 @@
 
         <!-- 6. contact: add form, map and table-->
         <div class="wrapper">
-            <div class="contact">
-                <h2>Contact Us</h2>
-                <h3>Send us a message</h3>
-                <form action="thanks.html" mothod="post">
-                    <label for="fullname">Full Name</label>
-                    <input id="fullname" type="test" name="fullname">
-               
-                    <label for="emailaddress">Email</label>
-                    <input id="emailaddress" type="email" name="email">
-              
-                    <label for="message">Message</label>
-                    <input id="message" type="text" name="message">
+            <h2>Contact Us</h2>
+            <div class="last">
+                <div class="contact">
+                    <h3>Send us a message</h3>
+                    <form action="thanks.html" mothod="post">
+                        <label for="fullname">Full Name</label>
+                        <input id="fullname" type="test" name="fullname">
+                
+                        <label for="emailaddress">Email</label>
+                        <input id="emailaddress" type="email" name="email">
+                
+                        <label for="message">Message</label>
+                        <input id="message" type="text" name="message">
 
-                    <button type="submit">Send</button>
-                </form>
-            </div>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
 
-              <!-- table has problem: can not show the table border, and how to reset in css) -->
-            <div class="timetable">
-                <h3>Hours of operation</h3>
-                <table>
-                    <thead>
-                        <tr class="title">
-                            <th colspan="2">Days</th>
-                            <th>Hours</th>
-                        </tr>
-                    </thead>
+                <!-- table has problem: can not show the table border, and how to reset in css) -->
+                <div class="timetable">
+                    <h3>Hours of operation</h3>
+                    <table>
+                        <thead>
+                            <tr class="title">
+                                <th colspan="2">Days</th>
+                                <th>Hours</th>
+                            </tr>
+                        </thead>
 
-                    <tbody>
-                        <tr>
-                            <td colspan="2">Monday - Friday</td>
-                            <td>9 AM - 6PM</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td colspan="2">Monday - Friday</td>
+                                <td>9 AM - 6PM</td>
+                            </tr>
 
-                        <tr>
-                            <td colspan="2">Saturday - Sunday</td>
-                            <td>Closed</td>
-                        </tr>
-                    </tbody>
-                </table>   
-            </div>
+                            <tr>
+                                <td colspan="2">Saturday - Sunday</td>
+                                <td>Closed</td>
+                            </tr>
+                        </tbody>
+                    </table>   
+                </div>
 
-            <!-- the map need to reset the width, heigth amd margin -->
-            <div class="map">
-                <h3>Location</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944738572691!2d-75.75713084858981!3d45.34992777899715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1szh-CN!2sca!4v1659399329716!5m2!1szh-CN!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- the map need to reset the width, heigth amd margin -->
+                <div class="map">
+                    <h3>Location</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944738572691!2d-75.75713084858981!3d45.34992777899715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1szh-CN!2sca!4v1659399329716!5m2!1szh-CN!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
 
         </div>

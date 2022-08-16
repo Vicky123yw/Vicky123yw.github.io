@@ -283,11 +283,9 @@ section p{
     padding-left: 10px;
  }
 
- .team{
+ .team-content{
     margin: 20px;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-gap: 18px;
+
  }
 
  .team h2{
@@ -301,7 +299,10 @@ section p{
 
  .john, .bob{
     background-color:#ffe6ac;
+    margin-top: 10px;
  }
+
+ 
 
  h5{
     font-weight: bolder;
@@ -311,7 +312,7 @@ section p{
     border-bottom:#c78c06 solid 2.5px;
  }
 
- .team p{
+ .team-content p{
     padding-top: 10px;
     padding-left: 15px;
     padding-bottom: 10px;
@@ -473,6 +474,7 @@ footer p:nth-child(2){
         line-height: 120px;
     }
 
+
     p{ line-height: 20px;}
 
     #aboutus{
@@ -532,12 +534,55 @@ footer p:nth-child(2){
    .block-4, .block-5, .block-6{
         width: 93%;
    }
-
-   .team-content{
-        display: grid;
-
+   .team h2{
+        margin-top: 10px;
+        margin-left: 20px;
    }
+   .team-content{
+        font-size: small;
+        padding-left: 10px;
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "r1 r2"
+        "r3 r4";
+    }
+    
+    .john{ grid-area: r1;}
+    .items-1{ grid-area: r2;}
+    .bob{ grid-area: r3;}
+    .items-2{ grid-area: r4}
+        
 
+    .last{
+        display: flex;
+        flex-wrap:wrap;
+        margin: 20px;
+    }
+
+    .content{ 
+        flex-basis: 50%;
+        order: 0;        
+    }
+
+    .map{
+        flex-basis: 50%;
+        order: 1;    
+    }
+
+    .timetable{
+        flex-basis: 100%;
+        order: 2;    
+    }
+    
+
+
+
+
+
+
+        
    
 
 
