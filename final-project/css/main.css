@@ -81,7 +81,6 @@ nav ul li a:hover, nav ul li a:active{
 /* seting a background, and a bar box. */
 #home{
     background-image: url(../images/main-banner.jpg);
-    background-position: auto;
     background-repeat: no-repeat;
     background-size: cover; 
     padding: 100px 0px;
@@ -228,7 +227,6 @@ section p{
 
  .vision{
     background-image: url(../images/vision.jpg);
-    background-position: absolute;
     background-repeat: no-repeat;
     background-size: cover; 
     justify-content: center;
