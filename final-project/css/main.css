@@ -315,13 +315,13 @@ section p{
     width: 100%;
  }
 
- .team-content img:nth-child(2){
-    
- }
-
 
  .items-1, .items-2{
     background-color:#ffe6ac;
+ }
+
+ .items-1{
+    margin-bottom: 10px;
  }
 
  h5{
@@ -341,11 +341,11 @@ section p{
     line-height: 1.4rem;
  }
  
- .contact{
+ .lastbox{
     margin: 20px; 
  }
 
- .contact h2{
+ .lastbox h2{
     padding-left: 5px;
     padding-top: 30px;
 
