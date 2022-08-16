@@ -521,6 +521,8 @@ footer p:nth-child(2){
    .block-4, .block-5, .block-6{
         width: 93%;
    }
+
+   /* team part --- using grid area to reset those child elements in the big content */
    .team h2{
         margin-top: 10px;
         margin-left: 20px;
@@ -554,6 +556,7 @@ footer p:nth-child(2){
     .contant{ grid-area: l1;}
     .timetable{ grid-area: l2;}
     .map{ grid-area: l3;}
+
 
     }
 
